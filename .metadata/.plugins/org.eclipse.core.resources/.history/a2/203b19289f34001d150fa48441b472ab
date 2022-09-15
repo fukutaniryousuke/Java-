@@ -7,13 +7,4 @@ public class Wizard {
 		h.hp += 10;
 		System.out.println(h.name + "のHPを１０回復した");
 	}
-	
-	public Wizard(String name) {
-		this.name = name;
-		this.hp = 50;
-	}
-	
-	public Wizard() {
-		this("ななし");
-	}
 }
