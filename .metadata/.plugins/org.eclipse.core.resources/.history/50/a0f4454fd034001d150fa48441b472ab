@@ -2,31 +2,8 @@ package jp.example;
 
 public class Hero extends Character {
 	private int hp;
-	private String name;
-	private Sword sword;//剣を装備
+	private Sword sword; //剣を装備
 	//戦う
-	
-	public String getName() {
-		return this.name;
-	}
-	
-	public void setName(String name) {
-		if (name == null) {
-			throw new IllegalArgumentException("名前がnullである。処理を中断");
-		}
-		if(name.length() <= 1) {
-			throw new IllegalArgumentException("名前がnullである。処理を中断");
-		}
-		if(name.length() >= 8) {
-			throw new IllegalArgumentException("名前がnullである。処理を中断");
-		}
-		this.name = name;
-	}
-	
-	public int getHp() {
-		return this.hp;
-	}
-	
 	public void attack(Monster m) {
 		System.out.println(this.name + "は" + this.sword.name + "で、攻撃した！");
 		System.out.println("敵に" + this.sword.damage + "ポイントのダメージをあたえた！");
