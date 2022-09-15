@@ -1,6 +1,6 @@
 package jp.example;
 
-public class Matango {
+public class Matango extends Monster {
 	int hp = 50;
 	final int LEVEL = 10;
 	char suffix;
@@ -16,5 +16,9 @@ public class Matango {
 	
 	public Matango(char suffix) {
 		this.suffix = suffix;
+	}
+	
+	public Matango() {
+		this.suffix = 'A';
 	}
 }

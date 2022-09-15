@@ -3,7 +3,7 @@ package jp.example;
 public class Hero extends Character {
 	Sword sword; //剣を装備
 	//戦う
-	public void attack(Matango m) {
+	public void attack(Monster m) {
 		System.out.println(this.name + "は" + this.sword.name + "で、攻撃した！");
 		System.out.println("敵に" + this.sword.damage + "ポイントのダメージをあたえた！");
 		m.hp -= this.sword.damage;
