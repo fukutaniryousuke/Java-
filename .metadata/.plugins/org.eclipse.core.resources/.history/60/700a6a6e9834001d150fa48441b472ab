@@ -15,6 +15,6 @@ public class main {
 		w.hp = 50;
 		
 		SuperHero sh = new SuperHero();
-		
+		sh.run();
 	}
 }
