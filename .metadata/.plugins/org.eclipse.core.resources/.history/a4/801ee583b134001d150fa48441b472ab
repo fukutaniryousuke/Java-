@@ -1,6 +1,8 @@
 package jp.example;
 
-public class Hero extends Character {
+public class Hero {
+	String name; //名前の宣言
+	int hp; //HPの宣言
 	Sword sword; //剣を装備
 	//戦う
 	public void attack(Matango m) {
@@ -23,7 +25,8 @@ public class Hero extends Character {
 		System.out.println("５のダメージ！");
 	}
 	
-	public Hero (String name) { //引数nameを受け取るコンストラクタ
+	
+	public Hero(String name) { //引数nameを受け取るコンストラクタ
 		this.hp = 100; //hpフィールドを100で初期化
 		this.name = name; //引数の値でnameフィールドを初期化
 	}
@@ -31,5 +34,4 @@ public class Hero extends Character {
 	public Hero() { //引数なしのコンストラクタ
 		this("ダミー");
 	}
-	
 }
