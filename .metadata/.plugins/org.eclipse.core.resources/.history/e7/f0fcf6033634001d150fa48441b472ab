@@ -1,0 +1,17 @@
+package jp.example;
+
+
+public class main {
+	public static void main(String[] args) {
+		Hero h1 = new Hero("ミナト");
+		System.out.println(h1.hp);
+		
+		Hero h2 = new Hero("アサカ");
+		h2.name = "アサカ";
+		
+		Wizard w = new Wizard();
+		w.name = "スガワラ";
+		w.hp = 50;
+		
+	}
+}

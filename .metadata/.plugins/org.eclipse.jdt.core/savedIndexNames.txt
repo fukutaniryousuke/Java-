@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+/Users/fukutaniryousuke/Desktop/JavaPractice/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+2285801732.index
+2206410594.index
+2298613830.index

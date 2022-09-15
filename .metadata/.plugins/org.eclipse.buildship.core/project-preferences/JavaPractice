@@ -1,0 +1,12 @@
+#
+#Tue Sep 13 00:45:14 JST 2022
+derivedResources=.gradle\:build
+linkedResources=
+classpath=<?xml version\="1.0" encoding\="UTF-8"?>\n<classpath>\n<classpathentry kind\="lib" path\="/Users/fukutaniryousuke/.gradle/caches/modules-2/files-2.1/jakarta.servlet/jakarta.servlet-api/4.0.4/b8a1142e04838fe54194049c6e7a18dae8f9b960/jakarta.servlet-api-4.0.4.jar" sourcepath\="/Users/fukutaniryousuke/.gradle/caches/modules-2/files-2.1/jakarta.servlet/jakarta.servlet-api/4.0.4/55ef0efd787dd54add675acdbb5092714505073b/jakarta.servlet-api-4.0.4-sources.jar">\n\t<attributes>\n\t\t<attribute name\="gradle_used_by_scope" value\=""/>\n\t\t<attribute name\="org.eclipse.jst.component.nondependency" value\=""/>\n\t</attributes>\n</classpathentry>\n</classpath>\n
+managedNatures=org.eclipse.wst.common.project.facet.core.nature\:org.eclipse.wst.common.modulecore.ModuleCoreNature\:org.eclipse.jem.workbench.JavaEMFNature
+buildDir=build
+managedBuilders=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><commands/>
+buildScriptPath=build.gradle
+subprojectPaths=
+hasAutoBuildTasks=false
+gradleVersion=7.4.2
