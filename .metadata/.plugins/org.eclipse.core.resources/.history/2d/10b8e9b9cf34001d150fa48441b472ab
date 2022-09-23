@@ -1,6 +1,0 @@
-package jp.example;
-
-public abstract class BattleCreature implements Creature {
-	
-	public abstract void run();
-}

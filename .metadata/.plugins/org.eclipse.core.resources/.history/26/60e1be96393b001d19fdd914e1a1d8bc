@@ -4,11 +4,7 @@ public class Hero extends Character {
 	private int hp;
 	private String name;
 	private Sword sword;//剣を装備
-	static int money;
-	
-	public static void setrrRandomMoney() {
-		Hero.money = (int)(Math.random() * 1000);
-	}
+	//戦う
 	
 	public String getName() {
 		return this.name;

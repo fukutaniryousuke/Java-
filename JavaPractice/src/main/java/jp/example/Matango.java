@@ -11,7 +11,7 @@ public class Matango extends Monster {
 	public void attack(Hero h) {
 		System.out.println("キノコ" + this.suffix + "の攻撃");
 		System.out.println("10のダメージ");
-		h.hp -= 10;
+		h.getHp() -= 10;
 	}
 	
 	public Matango(char suffix) {

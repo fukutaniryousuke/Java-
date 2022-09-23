@@ -1,6 +1,0 @@
-package jp.example;
-
-public class Matango {
-	int hp;
-	final int LEVEL = 10;
-}

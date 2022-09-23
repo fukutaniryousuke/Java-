@@ -16,7 +16,7 @@ public class SuperHero extends Hero {
 	}
 	//runをオーバーライド
 	public void run() {
-		System.out.println(this.name + "は、撤退した！");
+		System.out.println(this.getName() + "は、撤退した！");
 	}
 	
 	public void attack(Matango m) {
